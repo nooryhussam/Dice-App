@@ -1,0 +1,9 @@
+# Ignore platform-specific code
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+windows/** linguist-vendored
+macos/** linguist-vendored
+
+# Keep Dart as main
+*.dart linguist-detectable=true
